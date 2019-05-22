@@ -1,0 +1,76 @@
+*{
+   padding: 0;
+   margin: 0;
+
+}
+
+#pageHeading{
+  text-align: center;
+}
+
+/* button container div */
+.btn-container{
+	width: 33.3%;
+	height: 100px;
+	margin: 0 auto;
+
+}
+.btn-container::after{
+	clear:left;
+}
+
+
+/* button */
+.btn-place{
+	background: white;
+	color:teal;
+	width:200px;
+	height:50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	margin:20px auto;
+	display:block;
+
+}
+
+
+
+/*
+
+=====================
+List of Images
+=====================
+
+*/
+
+
+/* images div */
+#images {
+	width:90%;
+	margin:auto;
+	background: white;
+}
+
+
+
+/* image container div*/
+.image-div {
+	width:33.3%;
+	height:400px;
+	padding:3px;
+	float:left;
+	border: 2px solid red;
+}
+
+
+/* image */
+.image{
+	width:90%;
+	height:80%;
+	margin:auto;
+	display:block;
+}
+.image-div::after{
+	clear:left;
+}
